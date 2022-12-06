@@ -1,0 +1,8 @@
+Mytuple = ("i", "love", "python")
+Mylist = list(Mytuple)
+print("Given Tuple: ", Mytuple)
+print("After Converting Tuple into List: ", Mylist)
+Mylist[1] = "Practise"
+print("List after changing element: ", Mylist)
+Mytuple = tuple(Mylist)
+print("After converting List into tuple: ", Mytuple)
